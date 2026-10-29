@@ -1,5 +1,5 @@
 class Vanguard < Formula
-  desc "Interactive, biometric-secured vulnerability shield & package orchestrator"
+  desc "Interactive vulnerability shield & package update orchestrator"
   homepage "https://github.com/jankrloz/vanguard"
   version "0.1.0"
   license "MIT"

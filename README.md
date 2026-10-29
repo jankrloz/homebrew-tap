@@ -19,4 +19,4 @@ brew install jankrloz/tap/vanguard
 
 | Formula | Description |
 |---|---|
-| [`vanguard`](Formula/vanguard.rb) | Interactive, biometric-secured vulnerability shield & package orchestrator (`vg`) |
+| [`vanguard`](Formula/vanguard.rb) | Interactive vulnerability shield & package update orchestrator (`vg`) |
