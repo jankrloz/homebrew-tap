@@ -5,6 +5,8 @@ class Vanguard < Formula
   license "MIT"
 
   depends_on "meta-package-manager"
+  depends_on "osv-scanner"
+  depends_on "trivy"
 
   on_macos do
     if Hardware::CPU.arm?
