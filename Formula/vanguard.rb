@@ -1,7 +1,7 @@
 class Vanguard < Formula
   desc "Interactive vulnerability shield & package update orchestrator"
   homepage "https://jankrloz.github.io/vanguard/"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   depends_on "meta-package-manager"
@@ -10,11 +10,11 @@ class Vanguard < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jankrloz/vanguard/releases/download/v0.2.0/vanguard_0.2.0_darwin_arm64.tar.gz"
-      sha256 "44ebda5810d7eb9d50a79d52c66734ced6180f08e4ea39843ddb8be75dedc7d9"
+      url "https://github.com/jankrloz/vanguard/releases/download/v0.3.0/vanguard_0.3.0_darwin_arm64.tar.gz"
+      sha256 "a84eddb6d698324a966e0a61792aebda9d7c726dfdecec57aa9f115b32173521"
     else
-      url "https://github.com/jankrloz/vanguard/releases/download/v0.2.0/vanguard_0.2.0_darwin_amd64.tar.gz"
-      sha256 "a7978a11fb65911089303d923c042111692121aa7bde777be8bd65aeae3362aa"
+      url "https://github.com/jankrloz/vanguard/releases/download/v0.3.0/vanguard_0.3.0_darwin_amd64.tar.gz"
+      sha256 "d6c239c2722a2c082b51c82d8f2f36d580183ce7997e5e83eb0b9c25fc0fdcfc"
     end
   end
 
