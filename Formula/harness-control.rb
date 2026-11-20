@@ -11,8 +11,10 @@ class HarnessControl < Formula
   def install
     system "pnpm", "install", "--frozen-lockfile"
     system "pnpm", "-r", "--filter", "!@harness-control/desktop", "build"
+    rm_rf "node_modules"
+    rm_rf "apps/web/node_modules"
     rm_rf "apps/desktop"
-    system "pnpm", "install", "--prod", "--frozen-lockfile"
+    system "pnpm", "install", "--prod", "--frozen-lockfile", "--filter", "@harness-control/cli..."
     libexec.install Dir["*"]
     (bin/"harness-control").write_env_script libexec/"packages/cli/dist/bin.js", PATH: "#{Formula["node@22"].opt_bin}:$PATH"
     (bin/"harness-controld").write_env_script libexec/"packages/server/dist/daemon.js", PATH: "#{Formula["node@22"].opt_bin}:$PATH"
