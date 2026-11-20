@@ -1,8 +1,8 @@
 class HarnessControl < Formula
   desc "Unified AI coding harness control plane (CLI, TUI, daemon)"
   homepage "https://github.com/jankrloz/harness-control"
-  url "https://github.com/jankrloz/harness-control/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "4437106aa7d21105cd17fe5bff1ecceb329a883e566c8329528afc214c236b98"
+  url "https://github.com/jankrloz/harness-control/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "f4f4447bdfc14beaae674cd370696350a90ec3a0850b4b5f79714e808b8e8931"
   license "MIT"
 
   depends_on "node@22"
