@@ -11,10 +11,10 @@ class Vanguard < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jankrloz/vanguard/releases/download/v0.5.0/vanguard_0.5.0_darwin_arm64.tar.gz"
-      sha256 "f64c3677522d536304bde27f0f25a0eb0f7db1576d6e4c42de73c8da33b7e2ca"
+      sha256 "a3e3e485337b0428be01317a0c2a36562a77b54144568694c73720b58a539879"
     else
       url "https://github.com/jankrloz/vanguard/releases/download/v0.5.0/vanguard_0.5.0_darwin_amd64.tar.gz"
-      sha256 "2a3c66f8f5e6cb4be2a0ca506d92cbd4a70e3edb06fb730f3e9a97d65bea1e52"
+      sha256 "507b254792c8f23b9c90596eb62bab203768affc8b6ee812fd26fb3ee7375f78"
     end
   end
 
